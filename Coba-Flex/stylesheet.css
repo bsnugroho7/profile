@@ -1,0 +1,25 @@
+/* *{
+    margin: 0 auto;
+    
+} */
+.Flex-test{
+    display: flex;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+.Flex-test li{
+    flex: auto;
+    text-align: center;
+    margin: 0;
+}
+.box1{
+    background-color: teal;
+    height: 500px;
+    background-image: url(tio\ web.jpg); 
+    background-size: cover;
+}
+.box2{
+    background-color: tomato;
+}

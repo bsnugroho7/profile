@@ -1,0 +1,112 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+ul{
+    list-style: none;
+}
+/* BAGIAN ATAS */
+header{
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+nav{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    background-color: black;
+}
+nav li:hover{
+    opacity: 0.5;
+}
+nav a{
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+}
+.logo{
+    padding-top:20px;
+    padding-left: 50px;
+}
+.logo img{
+    height: 50px;
+}
+/* BODY */
+.exp{
+    height: 500px;
+    /* background-color: brown; */
+    margin: 40px;
+}
+.flexcard{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    /* justify-content: space-between; */
+    color: white;
+}
+.flexcard ul{
+    list-style: none;
+    padding: 0;
+}
+#kartu{
+    transition: 0.5s;
+    display: flex;
+    /* flex: auto; */
+    width: 40%;
+    height: 250px;
+    padding: 20px;
+    margin: 10px;
+    /* flex-direction: row; */
+    cursor: pointer;
+    /* flex-basis: 33%; */
+}
+#kartu:hover{
+    /* opacity: 0.8; */
+    background-color: #0d0d0d;
+    transition: 0.5s;
+}
+#kartu img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    width: 150px;
+}
+.card1{
+    /* background-color: cadetblue; */
+    border: 2px solid #0d0d0d;
+    flex-grow: 1;
+}
+
+.card2{
+    border: 2px solid #0d0d0d;
+    flex-grow: 1;
+}
+.card3{
+    border: 2px solid #0d0d0d;
+    flex-grow: 1;
+}
+.card4{
+    border: 2px solid #0d0d0d;
+    flex-grow: 1;
+}
+.logoexp{
+    /* border: 2px solid gray; */
+    flex-grow: 2;
+    /* max-width: 100%; */
+    /* width: 100%; */
+}
+.kontenkartu{
+    flex-grow: 1;
+    margin-left: 20px;
+    /* max-width: 50%; */
+    text-align: center;
+    line-height: 50px;
+}

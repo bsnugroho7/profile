@@ -1,0 +1,190 @@
+@media all and (max-width: 1000px) {
+    *{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    ul{
+        list-style: none;
+    }
+    /* BAGIAN ATAS */
+    header{
+        height: 50px;
+        background-color: black;
+        color: white;
+    }
+    nav{
+        display: none;
+        float: right;
+    }
+    nav li{
+        display: inline-block;
+        background-color: black;
+    }
+    nav li:hover{
+        opacity: 0.5;
+    }
+    nav a{
+        display: block;
+        padding: 0 20px;
+        text-decoration: none;
+        color: white;
+        line-height: 50px;
+    }
+    .logo{
+        padding-top:20px;
+        padding-left: 20px;
+    }
+    .logo img{
+        height: 30px;
+    }
+    /* BODY */
+    .container{
+        height: 700px;
+        background-color: violet;
+        display: flex;
+    }
+    .right-side{
+        color: white;
+        /* float: right; */
+        flex: auto;
+        width: 50%;
+        background-color: black;
+        height: 100%;
+    }
+    .left-side{
+        /* float:left; */
+        flex: auto;
+        background-color: black;
+        height: 100%;
+        width: 50%;
+        background-image: url(tio\ web.jpg); 
+        background-position: center;
+        background-size: cover;
+    }
+    .teks{
+        font-size: 15px;
+        margin-top: 200px;
+        margin-left: 10px;
+    }
+    .teks-contain{
+        margin-bottom: 50px;
+    }
+    input{
+        /* margin-left:50px; */
+        transition: 0.5s;
+        padding: 10px;
+        background-color:black;
+        border-radius: 10px;
+        color:white;
+        /* border: transparent; */
+        border: 1px solid  #0d0d0d;
+    }
+    input:hover{
+        background-color:  #0d0d0d;
+        padding: 20px;
+        border-radius: 40px;
+        transition: 0.5s;
+        cursor: pointer;
+        border: 1px solid  #0d0d0d;
+    }
+}
+@media all and (min-width:1000px){
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+/* BAGIAN ATAS */
+header{
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+nav{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    background-color: black;
+}
+nav li:hover{
+    opacity: 0.5;
+}
+nav a{
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+}
+.logo{
+    padding-top:20px;
+    padding-left: 50px;
+}
+.logo img{
+    height: 50px;
+}
+/* BODY */
+.container{
+    height: 700px;
+    background-color: violet;
+    display: flex;
+}
+.right-side{
+    flex: auto;
+    color: white;
+    width: 50%;
+    background-color: black;
+    height: 100%;
+}
+.left-side{
+    flex: auto;
+    background-color: black;
+    height: 100%;
+    width: 50%;
+    background-image: url(tio\ web.jpg); 
+    background-position: center;
+    background-size: cover;
+}
+.teks{
+    margin-top: 300px;
+    margin-left: 100px;
+}
+.teks-contain{
+    margin-bottom: 50px;
+}
+input{
+    /* margin-left:50px; */
+    transition: 0.5s;
+    padding: 10px;
+    background-color:black;
+    border-radius: 10px;
+    color:white;
+    border: 1px solid  #0d0d0d;
+    /* border: transparent; */
+}
+input:hover{
+    background-color:  #0d0d0d;
+    padding: 20px;
+    border-radius: 40px;
+    transition: 0.5s;
+    border: 1px solid  #0d0d0d;
+    cursor: pointer;
+}
+
+/* footer */
+/* footer{
+    background-color: black;
+    color: white;
+}
+.copyright{
+    float: right;
+}
+.year{
+    float:left;
+} */
+}
