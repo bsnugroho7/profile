@@ -3,6 +3,7 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
+
 body{
     background-color: black;
 }
@@ -61,7 +62,7 @@ nav a{
     display: flex;
     /* flex: auto; */
     width: 40%;
-    height: 250px;
+    height: 300px;
     padding: 20px;
     margin: 10px;
     /* flex-direction: row; */
@@ -109,4 +110,13 @@ nav a{
     /* max-width: 50%; */
     text-align: center;
     line-height: 50px;
+}
+.Spesial{
+    line-height: 20px;
+}
+
+.HM{
+    list-style: circle;
+    line-height: 20px;
+    text-align: left;
 }
