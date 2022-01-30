@@ -14,7 +14,7 @@
         color: white;
     }
     nav{
-        display: none;
+        /* display: none; */
         float: right;
     }
     nav li{
