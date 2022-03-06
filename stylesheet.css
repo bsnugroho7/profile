@@ -55,7 +55,7 @@
         background-color: black;
         height: 100%;
         width: 50%;
-        background-image: url(tio\ web2.jpg); 
+        background-image: url(tio-web.jpg); 
         background-position: center;
         background-size: cover;
     }
@@ -140,7 +140,7 @@ nav a{
     background-color: black;
     height: 100%;
     width: 50%;
-    background-image: url(tio\ web.jpg); 
+    background-image: url(tio-web.jpg); 
     background-position: center;
     background-size: cover;
 }
