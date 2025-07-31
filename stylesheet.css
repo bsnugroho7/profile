@@ -1,182 +1,159 @@
-@media all and (max-width: 670px) {
-    *{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        margin: 0 auto;
-        box-sizing: border-box;
-    }
-    ul{
-        list-style: none;
-    }
-    /* BAGIAN ATAS */
-    header{
-        height: 50px;
-        background-color: black;
-        color: white;
-    }
-    nav{
-        /* display: none; */
-        float: right;
-    }
-    nav li{
-        display: inline-block;
-        background-color: black;
-    }
-    nav li:hover{
-        opacity: 0.5;
-    }
-    nav a{
-        display: block;
-        padding: 0 20px;
-        text-decoration: none;
-        color: white;
-        line-height: 50px;
-    }
-    .logo{
-        padding-top:20px;
-        padding-left: 20px;
-    }
-    .logo img{
-        height: 50px;
-    }
-    /* BODY */
-    .container{
-        height: 700px;
-        background-color: violet;
-    }
-    .right-side{
-        color: white;
-        float: right;
-        width: 50%;
-        background-color: black;
-        height: 100%;
-    }
-    .left-side{
-        float:left;
-        background-color: black;
-        height: 100%;
-        width: 50%;
-        background-image: url(tio-web.jpg); 
-        background-position: center;
-        background-size: cover;
-    }
-    .teks{
-        font-size: 15px;
-        margin-top: 200px;
-        margin-left: 10px;
-    }
-    .teks-contain{
-        margin-bottom: 50px;
-    }
-    input{
-        /* margin-left:50px; */
-        transition: 0.5s;
-        padding: 10px;
-        background-color:black;
-        border-radius: 10px;
-        color:white;
-        /* border: transparent; */
-    }
-    input:hover{
-        background-color: gray;
-        padding: 20px;
-        border-radius: 40px;
-        transition: 0.5s;
-        cursor: pointer;
-    }
-}
-@media all and (min-width:1000px){
-*{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0 auto;
+/* ===== GLOBAL RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-ul{
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+                 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+ul {
     list-style: none;
 }
-/* BAGIAN ATAS */
-header{
-    height: 50px;
-    background-color: black;
-    color: white;
-}
-nav{
-    float: right;
-}
-nav li{
-    display: inline-block;
-    background-color: black;
-}
-nav li:hover{
-    opacity: 0.5;
-}
-nav a{
-    display: block;
-    padding: 0 20px;
+
+a {
     text-decoration: none;
+    color: inherit;
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: black;
     color: white;
-    line-height: 50px;
+    padding: 10px 20px;
 }
-.logo{
-    padding-top:20px;
-    padding-left: 50px;
+
+.upper-Wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
-.logo img{
+
+.logo img {
     height: 50px;
 }
-/* BODY */
-.container{
-    height: 700px;
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav li:hover {
+    opacity: 0.6;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+/* ===== MAIN CONTENT ===== */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
     background-color: violet;
 }
-.right-side{
-    color: white;
-    float: right;
-    width: 50%;
-    background-color: black;
-    height: 100%;
-}
-.left-side{
-    float:left;
-    background-color: black;
-    height: 100%;
-    width: 50%;
-    background-image: url(tio-web.jpg); 
-    background-position: center;
+
+/* LEFT SIDE */
+.left-side {
+    flex: 1 1 50%;
+    min-height: 350px;
+    background-image: url(tio-web.jpg);
     background-size: cover;
+    background-position: center;
 }
-.teks{
-    margin-top: 300px;
-    margin-left: 100px;
+
+/* RIGHT SIDE */
+.right-side {
+    flex: 1 1 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 5%;
 }
-.teks-contain{
-    margin-bottom: 50px;
+
+.teks {
+    max-width: 500px;
 }
-input{
-    /* margin-left:50px; */
-    transition: 0.5s;
-    padding: 10px;
-    background-color:black;
+
+.teks h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.teks h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.teks-contain {
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
     border-radius: 10px;
-    color:white;
-    /* border: transparent; */
+    font-size: 1rem;
+    transition: 0.3s ease;
 }
-input:hover{
+
+button:hover {
     background-color: gray;
-    padding: 20px;
-    border-radius: 40px;
-    transition: 0.5s;
+    transform: scale(1.05);
     cursor: pointer;
 }
 
-/* footer */
-/* footer{
-    background-color: black;
-    color: white;
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-side,
+    .right-side {
+        flex: 1 1 100%;
+        min-height: 300px;
+    }
+
+    .teks {
+        text-align: center;
+    }
 }
-.copyright{
-    float: right;
-}
-.year{
-    float:left;
-} */
+
+@media (max-width: 500px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        padding: 8px 12px;
+    }
+
+    .teks h1 {
+        font-size: 1.5rem;
+    }
+
+    .teks h3 {
+        font-size: 1rem;
+    }
+
+    button {
+        width: 100%;
+        font-size: 0.9rem;
+    }
 }
