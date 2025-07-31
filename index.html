@@ -5,6 +5,7 @@
     <title>Hello There!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
+    <script defer src="menu.js"></script>
 </head>
 <body>
 
@@ -13,9 +14,13 @@
             <div class="logo">
                 <img src="Tio-logo.png" alt="Gambar Logo">
             </div>
-            <nav>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav id="nav">
                 <ul>
-                    <li><a href="#">Profile</a></li>
                     <li><a href="Flexbox/Card.html">Experiences</a></li>
                     <li><a href="Flexbox/Contact/contact.html">Contact</a></li>
                 </ul>
@@ -30,6 +35,9 @@
                 <div class="teks-contain">
                     <h3>Hi, my name is</h3>
                     <h1>Bagus Satrio Nugroho</h1>
+                    <p class="summary">
+                        I’m an <strong>IT Security Engineer</strong> with experience in Microsoft 365 Security, Intune, Purview DLP, Entra ID, and Cloud Governance. I build and manage enterprise security infrastructure to protect data and ensure compliance with modern standards like <em>GDPR</em> and <em>Indonesia’s PDP Law</em>.
+                    </p>
                 </div>
                 <div class="btn">
                     <a href="Bagus_Satrio_Nugroho_CV_2025.pdf" download>
@@ -39,17 +47,6 @@
             </div>
         </section>
     </main>
-
-    <!--
-    <footer>
-        <div class="copyright">
-            <p>Design: Bagus Satrio Nugroho</p>
-        </div>
-        <div class="year">
-            <p>June, 2020</p>
-        </div>
-    </footer>
-    -->
 
 </body>
 </html>
